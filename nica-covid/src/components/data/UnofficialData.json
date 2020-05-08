@@ -1,0 +1,23 @@
+[
+    ["Destination", "Casos"],
+    ["Managua", 137],
+
+    ["Carazo", 8],
+    ["Chinandega", 27],
+    ["Granada", 17],
+    ["León", 15],
+    ["Masaya", 30],
+    ["Rivas", 15],
+
+    ["Boaco", 6],
+    ["Chontales", 21],
+    ["Estelí", 29],
+    ["Jinotega", 1],
+    ["Río San Juan", 2],
+    ["Madriz", 1],
+    ["Matagalpa", 44],
+    ["Nueva Segovia", 5],
+
+    ["Atlántico Norte", 5],
+    ["Atlántico Sur", 23]
+]

@@ -1,38 +1,42 @@
+html {
+  --antd-wave-shadow-color: #752029;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-layout-header {
+  font-size: larger;
+  font-weight: 500;
+  color: #fff;
+  background-color:#752029;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-layout-content {
+  padding: 15px;
+  background-color:#fef8f9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-layout-footer {
+  color: #fff;
+  background-color:#fef8f5;
 }
 
-.App-link {
-  color: #61dafb;
+/* Tabs CSS */
+
+.ant-tabs-nav .ant-tabs-tab-active {
+  color:#752029;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color:#c53745;
+}
+
+.ant-tabs-nav .ant-tabs-tab:active {
+  color:#752029;
+}
+
+.ant-tabs-ink-bar {
+  background:#752029;
 }
