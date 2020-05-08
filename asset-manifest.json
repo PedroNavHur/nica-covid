@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nica-covid/static/css/main.d1b05096.chunk.css",
+    "main.js": "/nica-covid/static/js/main.90a979cc.chunk.js",
+    "main.js.map": "/nica-covid/static/js/main.90a979cc.chunk.js.map",
+    "runtime-main.js": "/nica-covid/static/js/runtime-main.d4e9c682.js",
+    "runtime-main.js.map": "/nica-covid/static/js/runtime-main.d4e9c682.js.map",
+    "static/js/2.76d0545f.chunk.js": "/nica-covid/static/js/2.76d0545f.chunk.js",
+    "static/js/2.76d0545f.chunk.js.map": "/nica-covid/static/js/2.76d0545f.chunk.js.map",
+    "index.html": "/nica-covid/index.html",
+    "precache-manifest.1b356044e617fa840f568a434b863b6b.js": "/nica-covid/precache-manifest.1b356044e617fa840f568a434b863b6b.js",
+    "service-worker.js": "/nica-covid/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/nica-covid/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.76d0545f.chunk.js.LICENSE.txt": "/nica-covid/static/js/2.76d0545f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/nica-covid/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4e9c682.js",
+    "static/js/2.76d0545f.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.90a979cc.chunk.js"
+  ]
+}
