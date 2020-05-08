@@ -17,12 +17,14 @@ const tabListKeys = [
 ];
 
 var sortedOfficial = OfficialData;
-sortedOfficial.shift().sort((a,b) => b[1] - a[1]);
+sortedOfficial.shift();
+sortedOfficial.sort((a,b) => b[1] - a[1]);
 sortedOfficial.unshift(["", "Casos"]);
 
 
 var sortedUnofficial = UnofficialData;
-sortedUnofficial.shift().sort((a,b) => b[1] - a[1]);
+sortedUnofficial.shift();
+sortedUnofficial.sort((a,b) => b[1] - a[1]);
 sortedUnofficial.unshift(["", "Casos"]);
 
 const tabListInfo = {

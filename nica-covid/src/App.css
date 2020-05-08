@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&display=swap");
+
 html {
   --antd-wave-shadow-color: #752029;
 }
@@ -7,38 +9,42 @@ html {
 }
 
 .ant-layout-header {
-  font-size: larger;
+  font-family: "BioRhyme", serif;
+  font-size: x-large;
   font-weight: 500;
-  color: #fff;
-  background-color:#752029;
+  color: #fcfcfc;
+
+  padding: 16px;
+  background-color: #752029;
 }
 
 .ant-layout-content {
-  padding: 15px;
-  background-color:#fef8f9;
+  padding: 16px;
+  padding-bottom: 32px;
+  background-color: #752029;
 }
 
 .ant-layout-footer {
   color: #fff;
-  background-color:#fef8f5;
+  background-color: #fef8f5;
 }
 
 /* Tabs CSS */
 
 .ant-tabs-nav .ant-tabs-tab-active {
-  color:#752029;
+  color: #752029;
 }
 
 .ant-tabs-nav .ant-tabs-tab:hover {
-  color:#c53745;
+  color: #c53745;
 }
 
 .ant-tabs-nav .ant-tabs-tab:active {
-  color:#752029;
+  color: #752029;
 }
 
 .ant-tabs-ink-bar {
-  background:#752029;
+  background: #752029;
 }
 
 .mapChart {
