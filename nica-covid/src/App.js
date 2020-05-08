@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Space, Row, Col } from "antd";
-import { TabsCard } from "./components/TabsCard.js";
+import { ViralCard } from "./components/ViralCard.js";
 import "./App.css";
 
 const { Header, Footer, Content } = Layout;
@@ -15,7 +15,7 @@ function App() {
         <Content>
           <Row justify="center">
             <Col xs={24} sm={22} md={20} lg={18}>
-              <TabsCard />
+              <ViralCard/>
             </Col>
           </Row>
         </Content>

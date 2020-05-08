@@ -1,11 +1,12 @@
 import React from "react";
 import { Card } from "antd";
 import { ViralMapChart } from "./ViralMapChart";
+import { ViralBarChart } from "./ViralBarChart";
 
 import UnofficialData from "./data/UnofficialData.json";
 import OfficialData from "./data/OfficialData.json";
 
-const tabListNoTitle = [
+const tabListKeys = [
   {
     key: "official",
     tab: "Cifras Oficiales",
@@ -16,15 +17,24 @@ const tabListNoTitle = [
   },
 ];
 
-const contentListNoTitle = {
-  official: <ViralMapChart mapData={OfficialData} />,
-  stimate: <ViralMapChart mapData={UnofficialData} />,
+const tabListInfo = {
+  official: (
+    <>
+      <ViralMapChart mapData={OfficialData} />
+      <ViralBarChart barData={OfficialData} />
+    </>
+  ),
+  stimate: (
+    <>
+      <ViralMapChart mapData={UnofficialData} />
+      <ViralBarChart barData={UnofficialData} />
+    </>
+  ),
 };
 
-export class TabsCard extends React.Component {
+export class ViralCard extends React.Component {
   state = {
     key: "official",
-    noTitleKey: "official",
   };
 
   onTabChange = (key, type) => {
@@ -37,13 +47,13 @@ export class TabsCard extends React.Component {
       <div>
         <Card
           style={{ width: "100%" }}
-          tabList={tabListNoTitle}
-          activeTabKey={this.state.noTitleKey}
+          tabList={tabListKeys}
+          activeTabKey={this.state.key}
           onTabChange={(key) => {
-            this.onTabChange(key, "noTitleKey");
+            this.onTabChange(key, "key");
           }}
         >
-          {contentListNoTitle[this.state.noTitleKey]}
+          {tabListInfo[this.state.key]}
         </Card>
       </div>
     );
