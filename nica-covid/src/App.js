@@ -14,7 +14,7 @@ function App() {
         </Header>
         <Content>
           <Row justify="center">
-            <Col xs={24} sm={22} md={20} lg={18}>
+            <Col xs={24} sm={22} md={19} lg={17}>
               <ViralCard/>
             </Col>
           </Row>

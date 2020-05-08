@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "antd";
-import { ViralMapChart } from "./ViralMapChart";
-import { ViralBarChart } from "./ViralBarChart";
+import { ViralMapChart, ViralBarChart } from "./ViralCharts";
 
 import UnofficialData from "./data/UnofficialData.json";
 import OfficialData from "./data/OfficialData.json";
@@ -17,17 +16,26 @@ const tabListKeys = [
   },
 ];
 
+var sortedOfficial = OfficialData;
+sortedOfficial.shift().sort((a,b) => b[1] - a[1]);
+sortedOfficial.unshift(["", "Casos"]);
+
+
+var sortedUnofficial = UnofficialData;
+sortedUnofficial.shift().sort((a,b) => b[1] - a[1]);
+sortedUnofficial.unshift(["", "Casos"]);
+
 const tabListInfo = {
   official: (
     <>
       <ViralMapChart mapData={OfficialData} />
-      <ViralBarChart barData={OfficialData} />
+      <ViralBarChart barData={sortedOfficial} />
     </>
   ),
   stimate: (
     <>
       <ViralMapChart mapData={UnofficialData} />
-      <ViralBarChart barData={UnofficialData} />
+      <ViralBarChart barData={sortedUnofficial} />
     </>
   ),
 };

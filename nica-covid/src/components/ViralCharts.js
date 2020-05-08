@@ -27,3 +27,28 @@ export class ViralMapChart extends React.Component {
     );
   }
 }
+
+export class ViralBarChart extends React.Component {
+  render() {
+    return (
+      <div>
+        <Chart
+
+          className={"barChart"}
+          chartType="Bar"
+          data={this.props.barData}
+          options={{
+            colors: ["#c53745"],
+            hAxis: {
+              title: "Casos Totales",
+              minValue: 0,
+            },
+            bars: "horizontal",
+            legend: {position: 'none'}
+          }}
+          rootProps={{ "data-testid": "2" }}
+        />
+      </div>
+    );
+  }
+}
