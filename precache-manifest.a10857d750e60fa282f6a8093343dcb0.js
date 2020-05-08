@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5b43b837ddd50118d0159c49dccece5",
+    "revision": "99553c4b11445c41e4aa41911eb1585a",
     "url": "/nica-covid/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nica-covid/static/css/2.35fcc229.chunk.css"
   },
   {
-    "revision": "32e2cc9f58d5eba8c489",
-    "url": "/nica-covid/static/css/main.526eb5e0.chunk.css"
+    "revision": "05b5edfb2b3f36524650",
+    "url": "/nica-covid/static/css/main.6e0b7330.chunk.css"
   },
   {
     "revision": "c6061f08c51d8d1c4f0e",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nica-covid/static/js/2.f81ad384.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32e2cc9f58d5eba8c489",
-    "url": "/nica-covid/static/js/main.49792716.chunk.js"
+    "revision": "05b5edfb2b3f36524650",
+    "url": "/nica-covid/static/js/main.284e65be.chunk.js"
   },
   {
     "revision": "82d7c9db4d6dcf55ef0c",
