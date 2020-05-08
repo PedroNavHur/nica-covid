@@ -14,10 +14,8 @@ function App() {
         </Header>
         <Content>
           <Row justify="center">
-            <Col>
-              <Space>
-                <TabsCard />
-              </Space>
+            <Col xs={24} sm={22} md={20} lg={18}>
+              <TabsCard />
             </Col>
           </Row>
         </Content>

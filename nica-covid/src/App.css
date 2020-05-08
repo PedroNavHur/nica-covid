@@ -40,3 +40,8 @@ html {
 .ant-tabs-ink-bar {
   background:#752029;
 }
+
+.mapChart {
+  max-width: 100%;
+  height: auto;
+}

@@ -6,8 +6,7 @@ export class ViralMapChart extends React.Component {
     return (
       <div>
         <Chart
-          width={"100%"}
-          height={"100%"}
+          className={"mapChart"}
           chartType="GeoChart"
           data={this.props.mapData}
           options={{
