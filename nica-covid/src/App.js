@@ -1,6 +1,9 @@
 import React from "react";
 import { Layout, Space, Row, Col, Typography } from "antd";
 import { ViralCard } from "./components/ViralCard.js";
+
+import udTime from "./components/data/udTime.json";
+
 import "./App.css";
 
 const { Header, Footer, Content } = Layout;
@@ -27,18 +30,24 @@ function App() {
               <h3>Fuentes Oficiales</h3>
               <Text>
                 La informacion de fuentes oficiales proviene directamente de la
-                informacion proveida por el Ministerio de Salud Nicaraguense
-                (Minsa).
-                <br/>
+                informacion provista por el Ministerio de Salud Nicaraguense
+                (MINSA).
+                <br />
                 <a href="http://www.minsa.gob.ni/">Sitio oficial del MINSA</a>
               </Text>
               <h3>Fuentes No Oficiales</h3>
               <Text>
                 La informacion de fuentes no oficiales proviene de los reportes
-                semanales proveidos por el Observatorio Ciudadano COVID-19.
-                <br/>
-                <a href="https://twitter.com/observatorioni">Observatorio Ciudadano</a>
+                semanales provistos por el Observatorio Ciudadano COVID-19.
+                <br />
+                <a href="https://twitter.com/observatorioni">
+                  Observatorio Ciudadano
+                </a>
               </Text>
+              <h3>
+                Ultima Actualizacion: 
+                <Text type="warning">{udTime}</Text>
+              </h3>
             </Space>
           </Space>
         </Footer>
