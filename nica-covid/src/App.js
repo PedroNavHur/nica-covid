@@ -1,9 +1,10 @@
 import React from "react";
-import { Layout, Space, Row, Col, PageHeader } from "antd";
+import { Layout, Space, Row, Col, Typography } from "antd";
 import { ViralCard } from "./components/ViralCard.js";
 import "./App.css";
 
 const { Header, Footer, Content } = Layout;
+const { Text } = Typography;
 
 function App() {
   return (
@@ -15,11 +16,32 @@ function App() {
         <Content>
           <Row justify="center">
             <Col xs={24} sm={22} md={19} lg={17}>
-              <ViralCard/>
+              <ViralCard />
             </Col>
           </Row>
         </Content>
-        <Footer>Footer</Footer>
+        <Footer>
+          <Space direction="vertical">
+            <h2>Fuentes</h2>
+            <Space align="start" direction="vertical">
+              <h3>Fuentes Oficiales</h3>
+              <Text>
+                La informacion de fuentes oficiales proviene directamente de la
+                informacion proveida por el Ministerio de Salud Nicaraguense
+                (Minsa).
+                <br/>
+                <a href="http://www.minsa.gob.ni/">Sitio oficial del MINSA</a>
+              </Text>
+              <h3>Fuentes No Oficiales</h3>
+              <Text>
+                La informacion de fuentes no oficiales proviene de los reportes
+                semanales proveidos por el Observatorio Ciudadano COVID-19.
+                <br/>
+                <a href="https://twitter.com/observatorioni">Observatorio Ciudadano</a>
+              </Text>
+            </Space>
+          </Space>
+        </Footer>
       </Layout>
     </div>
   );

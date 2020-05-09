@@ -1,23 +1,23 @@
 [
     ["Destination", "Casos"],
-    ["Managua", 137],
+    ["Managua", 339],
 
-    ["Carazo", 8],
-    ["Chinandega", 45],
-    ["Granada", 17],
-    ["León", 15],
-    ["Masaya", 30],
-    ["Rivas", 15],
+    ["Carazo", 10],
+    ["Chinandega", 61],
+    ["Granada", 28],
+    ["León", 25],
+    ["Masaya", 64],
+    ["Rivas", 16],
     
     ["Boaco", 6],
     ["Chontales", 21],
-    ["Estelí", 29],
-    ["Jinotega", 1],
+    ["Estelí", 35],
+    ["Jinotega", 4],
     ["Río San Juan", 2],
-    ["Madriz", 1],
-    ["Matagalpa", 44],
-    ["Nueva Segovia", 5],
+    ["Madriz", 19],
+    ["Matagalpa", 53],
+    ["Nueva Segovia", 6],
 
-    ["Atlántico Norte", 5],
+    ["Atlántico Norte", 6],
     ["Atlántico Sur", 23]
 ]

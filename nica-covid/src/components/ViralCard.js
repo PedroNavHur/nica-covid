@@ -8,11 +8,11 @@ import OfficialData from "./data/OfficialData.json";
 const tabListKeys = [
   {
     key: "official",
-    tab: "Cifras Oficiales",
+    tab: "Casos Oficiales",
   },
   {
     key: "stimate",
-    tab: "Cifras No Oficiales",
+    tab: "Casos No Oficiales",
   },
 ];
 
